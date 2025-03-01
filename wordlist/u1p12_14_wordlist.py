@@ -23,7 +23,7 @@ word_list=[
     ("athletic", "adj.运动的，有运动才能的，健壮的"),
     ("comfort zone", "舒适圈"),
     ("pursue one’s dream", "追寻某人的梦想"),
-    ("by oneself=on one’s own", "自己做"),
+    ("by oneself/on one’s own", "自己做"),
     ("once/twice/three times", "一次/两次/三次，使用现在完成时"),
     ("I have been to Beijing twice.", "我去过北京两次。"),
     ("cover v.覆盖 n.封面，盖子-discover", "v.发现-discovery n."),
