@@ -1,3 +1,26 @@
+def is_passing_score(is_final_score):
+    flag="成绩不合格，请重新练习"
+    if is_final_score>90:
+        flag="成绩合格，继续加油"
+        return flag
+    else:return flag
+
+
+def sum_score(sum_wrong_times, wordlist_length):
+    sum_final_score = round((wordlist_length- sum_wrong_times) / wordlist_length, 3) * 100
+    if sum_final_score<0:
+        sum_final_score=0
+    return sum_final_score
+    
+     
+def check_word(words,user_input):
+    list_words=words.split("|")
+    flag=False
+    for word in list_words:
+        if is_same_word(word,user_input):
+            flag=True
+            break
+    return flag
 
 def is_same_word(answer,user_input):
     temp_count = 0
