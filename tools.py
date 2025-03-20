@@ -5,14 +5,12 @@ def is_passing_score(is_final_score):
         return flag
     else:return flag
 
-
 def sum_score(sum_wrong_times, wordlist_length):
     sum_final_score = round((wordlist_length- sum_wrong_times) / wordlist_length, 3) * 100
     if sum_final_score<0:
         sum_final_score=0
     return sum_final_score
-    
-     
+
 def check_word(words,user_input):
     list_words=words.split("|")
     flag=False
