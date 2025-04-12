@@ -19,7 +19,7 @@ word_list = [
     ("n.发明物", "invention"),
     ("n.发明家", "inventor"),
     ("Let's 反义疑问句", "shall we?"),
-    ("Let us  ", "will you?"),
+    ("Let us 反义疑问句", "will you?"),
     ("突然间", "all of a sudden/suddenly"),
     ("你能告诉我图书馆在哪儿吗?", "Can you tell me where the library is?"),
     ("肺", "lung"),
