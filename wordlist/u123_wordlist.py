@@ -12,4 +12,4 @@ from u3p40_43_wordlist import word_list as u3p40_43_wordlist
 wordlist = u1p12_14_wordlist + u2_exam + u2p20_21_wordlist + u2p24_25_wordlis + u2p28_30_wordlis + u3_c + u3_wordlist + u3p36_37_wordlist
 
 
-print(wordlist)
+print(len(wordlist))
